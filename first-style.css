@@ -1,0 +1,61 @@
+h1{
+			font-family: "Geneva";
+			color: black;
+			
+			border: solid white 2px;
+	
+		background-color: #E6E6FA;
+			text-align: center;
+			font-size: 50px;
+		}
+		h2{
+			font-family: "Geneva";
+			color: black;
+			text-align: center;
+			border: solid white 2px;
+			background-color: #E6E6FA;
+			font-size: 30px;
+
+
+		}
+		p{
+			
+			color:black;
+			font-family: "Geneva";
+			font-size:25px;
+			color:black;
+			border: dashed white 2px;
+		
+			
+		}
+		
+		li{
+			font-family: "Geneva";
+			font-size: 20px;
+
+			
+		}
+		ul{
+		background-image:linear-gradient(#E6E6FA,#FFB6C1);
+		border: solid white 2px;
+
+				}
+		html,body{
+			height: 100%;
+
+		}
+		body{
+			background-image:linear-gradient(#FFB6C1,#E6E6FA);
+
+		}
+		a:hover {
+  color: black;
+}
+
+a{
+	font-family: Geneva;
+	color:white;
+	font-size: 20px;
+
+
+		}
