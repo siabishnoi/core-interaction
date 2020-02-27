@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		html,body{
+		height: 100%;
+		margin: 0;
+		}
+		div{
+			float: top;
+		}
+		body{
+
+			margin: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.grey{
+			margin: auto;
+			width: 70vmin;
+			height: 100vmin;
+			background-color: #A9A9A9;
+			position: absolute;
+			z-index: -1;
+			left: 460px;
+			animation-name: color;
+			animation-duration: 5s;
+			animation-timing-function: ease-in-out;
+			animation-direction: alternate;
+			animation-iteration-count: infinite;
+		}
+
+		.yellow{
+			margin: auto;
+			width: 35vmin;
+			height: 100vmin;
+			background-color: #F0E68C;
+			position: relative;
+			animation-name: background-color;
+			animation-duration: 5s;
+			animation-timing-function: ease-in-out;
+			animation-direction: alternate;
+			animation-iteration-count: infinite;
+			
+		}
+		.red{
+			margin: auto;
+			width: 50vmin;
+			height: 8vmin;
+			background-color: crimson;
+			position: absolute;
+			top: 50px;
+			left: 530px;
+			animation: slide1 6s infinite ease-in-out;
+		
+
+		}
+		.two{
+			margin: 0.15vmin;
+			width: 50vmin;
+			height: 8vmin;
+			background-color: crimson;
+			position: absolute;
+			left: 528px;
+			animation: slide6 6s infinite ease-in-out;
+
+		}
+		.four{
+			margin: 20vmin;
+			width: 50vmin;
+			height: 8vmin;
+			background-color: crimson;
+			position: absolute;
+			left: 380px;
+			animation: slide2 6s infinite ease-in-out;
+	
+		}
+		.three{
+			margin: 10vmin;
+			width: 50vmin;
+			height: 8vmin;
+			background-color: crimson;
+			position: absolute;
+			left: 455px;
+			animation: slide10 6s infinite ease-in-out;
+			animation-direction: reverse;
+
+		
+		}
+		.six{
+			margin: 40vmin;
+			width: 50vmin;
+			height: 8vmin;
+			background-color: crimson;
+			position: absolute;
+			left: 228px;
+			animation: slide3 6s infinite ease-in-out;
+			
+		}
+		.five{
+			margin: 30vmin;
+			width: 50vmin;
+			height: 8vmin;
+			background-color: crimson;
+			position: absolute;
+			left: 303px;
+			animation: slide7 6s infinite ease-in-out;	
+			animation-direction: reverse;	
+
+		}
+		.seven{
+			margin: -5.3vmax;
+			width: 50vmin;
+			height: 8vmin;
+			background-color: crimson;
+			position: absolute;
+			left: 606px;
+			animation: slide9 6s infinite ease-in-out;
+			animation-direction: reverse;
+
+		
+		}
+		.eight{
+			margin: -10.5vmax;
+			width: 50vmin;
+			height: 8vmin;
+			background-color: crimson;
+			position: absolute;
+			left: 680px;
+				animation: slide4 6s infinite ease-in-out;
+
+		}
+		.nine{
+			margin: -15.5vmax;
+			width: 50vmin;
+			height: 8vmin;
+			background-color: crimson;
+			position: absolute;
+			left: 750px;
+			animation: slide8 6s infinite ease-in-out;
+			animation-direction: reverse;
+			
+	
+		}
+		@keyframes background-color {
+			from {background-color: #F0E68C;}
+			to {background-color: black;}
+		}
+
+@keyframes color{
+	  0%   {background-color: grey;}
+  
+50% {background-color: pink}
+
+  
+
+
+	
+}
+@keyframes slide1{0%{transform:rotate(-20deg);}
+50%{transform: initial;
+			}
+			75%{
+				transform: translate(50vw,0);
+			}
+			100%{
+				transform:initial;}
+		}
+		@keyframes slide2{0%{transform:rotate(-20deg);}
+			50% {transform: initial;}
+
+			75%{
+				transform: translate(50vw,0);
+			}
+			100%{
+				transform: initial;}
+	
+		}
+		@keyframes slide3{0%{transform:rotate(-20deg);}
+		50% {transform: initial;}
+
+			75%{
+				transform: translate(50vw,0);
+			}
+			100%{
+				transform: initial;}
+		}
+		@keyframes slide4{0%{transform:rotate(-20deg);}
+			50% {transform: initial;}
+
+			75%{
+				transform: translate(50vw,0);
+			}
+			100%{
+				transform: initial;}
+		}
+		@keyframes slide5{0%{transform:rotate(-20deg);}
+			50% {transform: initial;}
+
+			75%{
+				transform: translate(50vw,0);
+			}
+			100%{
+				transform: initial;}
+		
+
+		}
+		@keyframes slide6{
+			0%{transform:rotate(-20deg);}
+			
+
+			50% {transform: initial;}
+
+			75%{
+				transform: translate(50vw,0);
+			}
+			100%{
+				transform: initial;}
+
+		}
+		@keyframes slide7{0%{transform: translate(0,10vh);}
+			50% {transform: initial;}
+
+			75%{
+				transform: rotate(10deg);
+			}
+			100%{
+				transform: initial;
+			}
+			@keyframes slide8{
+				50% {transform: initial;}
+		
+
+			75%{
+				transform: rotate(10deg);}
+			
+		}
+			100%{
+				transform: initial;}
+			}
+			@keyframes slide9{0%{transform: translate(0,20vh);}
+				50% {transform: initial;}
+
+			75%{
+				transform: rotate(10deg);
+			}
+		
+			100%{
+				transform: initial;}
+			}
+			@keyframes slide10{
+				50% {transform: initial;}
+
+			75%{
+				transform: rotate(10deg);
+			
+		}
+			100%{
+				transform: initial;}
+			}
+		
+			
+
+}
+	}
+
+
+	</style>
+</head>
+<body>
+<div class="grey"></div>
+<div class="yellow"></div>
+<div class="red"></div>
+<div class="two"></div>
+<div class="three"></div>
+<div class="four"></div>
+<div class="five"></div>
+<div class="six"></div>
+<div class="seven"></div>
+<div class="eight"></div>
+<div class="nine"></div>
+
+</body>
+</html>
