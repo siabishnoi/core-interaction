@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Random</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style>
+      .hero_image {
+        width: 50%;
+        height: 100%;
+      }
+      
+      button {
+        display:block;
+        position:fixed;
+        bottom:10px;
+        color:red;
+        background-color:pink;
+        cursor:pointer;
+      }
+      body{
+        background-color: #FAEBD7;
+      }
+    </style>
+
+    <!--   jquery hosted library   -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div style="position: fixed;margin-top: 5%; margin-left: 5%;">
+    <img class="hero_image" src=" " />
+
+    </div>
+    
+    <button>
+     click here
+    </button>
+ 
+    <script>
+      var images = [
+        "img/dog1.jpg",
+        "img/dog2.jpg",
+        "img/dog3.jpg",
+        "img/dog4.jpg",
+        "img/dog5.jpg",
+
+        
+      ];
+      
+      var image = $('.hero_image');
+      
+      function select_random(x){
+				y = x[Math.floor(Math.random()*x.length)];
+				return y;
+			};
+      
+      function display_image() {
+        selected_image = select_random(images);
+        $('.hero_image').attr("src", selected_image);
+      }
+      
+      $(document).ready(function(){
+        display_image();
+        $('button').click(function(){
+          display_image();
+        });
+      });
+      
+    </script>
+  </body>
+</html>
+
