@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 150px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  border-radius: 0 5px 5px 0;
+  font-family: Bradley Hand;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#starters {
+  top: 320px;
+  background-color: #ffffb3;
+}
+
+#main {
+  top: 380px;
+  background-color: #ffff80;
+}
+
+#dessert {
+  top: 440px;
+  background-color: #ffff1a;
+
+}
+
+img{
+	height: 100%;
+	width: 100%;
+}
+body{
+	margin:0;
+}
+.text-block{
+	position: absolute;
+  top: -15px;
+left: 10px;
+  font-family: Bradley Hand;
+ font-size: 20px;
+
+  color: black;
+  padding-right: 20px;
+  animation: header 2s infinite ease-out;
+}
+@keyframes header {
+	50% {transform: initial;
+		}
+		75%{
+			transform: translate(2vw, 0)
+		}
+		100%{
+			transform: initial;
+		}
+}
+</style>
+</head>
+<body>
+	<div class = "text-block"><h1>Bishs' Vegan Eatery</h1></div>
+	<img src="vegan.gif">
+	
+
+<div id="mySidenav" class="sidenav">
+  <a href="../Week06-Class02/starters.html" id="starters">Starters</a>
+  <a href="../Week06-Class02/main.html" id="main">Main</a>
+  <a href="../Week06-Class02/dessert.html" id="dessert">Dessert</a>
+
+</div>
+
+<div style="margin-left:80px;">
+  
+</div>
+   
+</body>
+</html> 

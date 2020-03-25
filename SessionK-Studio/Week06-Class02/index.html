@@ -27,6 +27,7 @@
 		font-family: Geneva;
 		font-size:40px;
 		border-bottom: 2px #ffd11a solid;
+		animation: header1 2s infinite ease-out;
 	}
 	.starters{
 		position: absolute;
@@ -52,6 +53,17 @@
 		font-family: Geneva;
 		font-style: italic;
 	}
+	@keyframes header1 {
+		50% {transform: initial;
+		}
+		75%{
+			transform: translate(10vw, 0)
+		}
+		100%{
+			transform: initial;
+		}
+	}
+
 	</style>
 </head>
 <body>
