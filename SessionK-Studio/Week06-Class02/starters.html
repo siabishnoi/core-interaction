@@ -18,17 +18,20 @@
 	
 	.starters{
 		position: absolute;
-		top: -1px;
-		left: 1%;
+		top: 25%;
+		left: 37%;
 		font-family:Bradley Hand;
-		font-size:40px;
+		font-size:60px;
+		 animation: header 2s infinite ease-out;
+
+
 		
 	}
 	.avocado{
 		position: absolute;
-		top: 18%;
+		top: 10%;
 		left: 12%;
-		font-size:20px;
+		font-size:23px;
 		font-family: Bradley Hand;
 		font-style: italic;
 	}
@@ -36,51 +39,54 @@
 		position: absolute;
         width:35%;
         height:45%;
-        top: 16%;
+        top: 11%;
 		left: 4%;
 		transition: all .2s ease-in-out; 
 
     }
     .avo2{
         position: absolute;
-        width:15%;
-        height:20%;
-        top: 43%;
-		left: 10%;
+        width:37%;
+        height:42%;
+        top: 27%;
+		left: 7%;
+		transition: all .2s ease-in-out;
 	}
 	.avocado2{
 		position: absolute;
-		height: 30%;
-		left: 18%;
-		top: 18%;
+		height: 20%;
+		left: 19%;
+		top: 17%;
 	}
 	.dip{
 		position: absolute;
-		top: 55%;
-		left: 35%;
-		font-size:20px;
+		top: 52%;
+		left: 38%;
+		font-size:25px;
 		font-family: Bradley Hand;
 		font-style: italic;
 	}
 	.dip1{
 		position: absolute;
-        width:15%;
-        height:20%;
-        top: 78%;
-		left: 36%;
+        width:37%;
+        height:47%;
+        top: 52%;
+		left: 31%;
+		transition: all .2s ease-in-out; 
 	}
 	.dip2{
 		position: absolute;
-        width:15%;
-        height:20%;
-        top: 60%;
-		left: 44%;
+        width:38%;
+        height:45%;
+        top: 40%;
+		left: 35%;
+		transition: all .2s ease-in-out; 
 	}
 	.sweet{
 		position: absolute;
-		top: 7%;
-		left: 76%;
-		font-size:20px;
+		top: 6%;
+		left: 78%;
+		font-size:25px;
 		font-family: Bradley Hand;
 		font-style: italic;
 	}
@@ -88,47 +94,113 @@
 		position: absolute;
         width:15%;
         height:20%;
-        top: 15%;
-		left: 81%;
+        top: 13%;
+		left: 83%;
+		transition: all .2s ease-in-out; 
 	}
 	.potato2{
 		position: absolute;
         width:15%;
         height:20%;
         top: 10%;
-		left: 64%;
+		left: 66%;
+		transition: all .2s ease-in-out; 
 	}
 	.hummus{
 		position: absolute;
-		width: 18%;
-		top: 55%;
-		left: 22%;
+		width: 16%;
+		top: 62%;
+		left: 28%;
 	}
 	.fries{
 		position: absolute;
-		width: 18%;
-		top: 28%;
-		left: 67%;
+		width: 10%;
+		height: 22%;
+		top: 30%;
+		left: 74%;
 	}
-	.go-vegan{
-		position: absolute;
-		width: 25%;
-		top: 10%;
-		left: 35%;
-	}
+	
 	.veggie{
 		position: absolute;
 		top: 70%;
 		left:80%;
 		width: 15%;
 	}
+	#mySidenav a {
+  position: absolute;
+  left: -100px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 150px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  border-radius: 0 5px 5px 0;
+  font-family: Bradley Hand;
+}
+
+#mySidenav a:hover {
+  left: 0;
+
+}
+#starters {
+  top: 560px;
+
+  background-color:  #b3ff66;
+}
+
+#main {
+  top: 620px;
+  background-color: #ffff80;
+}
+
+#dessert {
+  top: 680px;
+  background-color:#ffff4d;
+
+}
+	@keyframes header{
+		50% {transform: initial;
+		}
+		75%{
+			transform: translate(0, 2vw)
+		}
+		100%{
+			transform: initial;
+		}
+	}
 	
 
-.avo1.:hover { 
-	  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
+.avo1 :hover { 
+	  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
+.avo2 :hover{
+	 -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+
+}
+.dip1 :hover{
+	 -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.dip2 :hover{
+		 -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.potato-1 :hover{
+	 -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.potato-2 :hover{
+	 -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 	</style>
@@ -136,21 +208,25 @@
 </head>
 <body>
 
-<div class="starters">Starters</div>
+<div class="starters">STARTERS</div>
 <div class="avocado">Avocado Toast</div>
-<div class = "avo1"><img class= "avo1" src="Avocado.jpg"></div>
-<img class="avo2" src="avocado2.jpg">
-<img class="avocado2" src="avocado2.gif">
+<div class = "avo1"><img class= "avo1" src="Avocado.jpg"><a href="https://www.thebutchersdaughter.com/"><img class="avo1" src="Avocado.jpg"></a></div>
+<div class = "avo2"><img class="avo2" src="avocado2.jpg"><a href="https://www.matthewkenneycuisine.com/plant-food-wine-NYC"><img class="avo2" src="avocado2.jpg"></a></div>
+<img class="avocado2" src="avocado-1.jpg">
 <div class="dip">Chickpea Hummus and Avocado Dip</div>
-<img class="dip1" src="dip1.jpg"><a href ="../Week06-Class02/abcv.html"><img class="dip1" src="dip1.jpg"> </a>
-<img class="dip2" src="dip2.jpg">
-<img class="hummus" src="hummus.gif">
+<div class = "dip1"><img class="dip1" src="dip1.jpg"><a href ="https://www.thebutchersdaughter.com/"><img class="dip1" src="dip1.jpg"> </a></div>
+<div class ="dip2"><img class="dip2" src="dip2.jpg"><a href ="https://www.abchome.com/c/dine/abcv/"><img class="dip2" src="dip2.jpg"></a></div>
+<img class="hummus" src="chips.jpg">
 <div class="sweet">Sweet Potato Fries</div>
-<img class="potato1" src="potato1.jpg">
-<img class="potato2" src="potato2.jpg">
-<img class="fries" src="fries.gif">
-<img class="go-vegan" src="veggie5.gif">
-<div class = "zoom"> </div>
+<div class = "potato-1"><img class="potato1" src="potato1.jpg"><a href ="https://www.matthewkenneycuisine.com/plant-food-wine-NYC"><img class="potato1" src="potato1.jpg"></a></div>
+<div class = "potato-2"><img class="potato2" src="potato2.jpg"><a href ="https://eatbychloe.com/"><img class="potato2" src="potato2.jpg"></a></div>
+<img class="fries" src="fries2.jpg">
+
+<div id="mySidenav" class="sidenav">
+  <a href="../Week06-Class02/index2.html" id="starters">Home</a>
+  <a href="../Week06-Class02/main.html" id="main">Main</a>
+  <a href="../Week06-Class02/dessert.html" id="dessert">Dessert</a>
+
 
 </body>
 </html>

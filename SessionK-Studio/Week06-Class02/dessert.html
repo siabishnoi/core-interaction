@@ -9,7 +9,7 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			background-color: #ffff33;
+			background-color: #ffeb99;
 		}
 		html, body{
 			height: 100%;
@@ -18,17 +18,204 @@
 	
 	.dessert{
 		position: absolute;
-		top: -1px;
-		left: 1%;
+		top: 28%;
+		left: 42%;
 		font-family:Bradley Hand;
-		font-size:40px;
+		font-size:60px;
+		 animation: header 2s infinite ease-out;
+	
 	}
+	.pancake{
+		position: absolute;
+		top: 10%;
+		left: 12%;
+		font-size:23px;
+		font-family: Bradley Hand;
+		font-style: italic;
+		}
+		.pancake1{
+		position: absolute;
+        width:15%;
+        height:20%;
+        top: 16%;
+		left: 3%;
+		transition: all .2s ease-in-out; 
+		}
+			.pancake2{
+		position: absolute;
+        width:15%;
+        height:20%;
+        top: 36%;
+		left: 13%;
+		transition: all .2s ease-in-out;
+	}
+	.Pancake{
+		position: absolute;
+        width:13%;
+        height:25%;
+        top: 14%;
+		left: 20%;	
+}
+        .matcha{
+        position: absolute;
+		top: 49%;
+		font-size:23px;
+		font-family: Bradley Hand;
+		font-style: italic;
+        }
+        .matcha1{
+        position: absolute;
+        width:13%;
+        height:25%;
+        top: 60%;
+		left:35%;
+		transition: all .2s ease-in-out;
+        }
+        .matcha2{
+        position: absolute;
+        width:13%;
+        height:25%;
+       
+		top: 55%;
+		left:50%;
+		transition: all .2s ease-in-out;
+        }
+        .Pistachio{
+        position: absolute;
+        width:10%;
+        height:20%;
+        top: 78%;
+		left:47%;	
+        }
+        .yogurt{
+        position: absolute;
+		top: 20%;
+		left: 82%;
+		font-size:23px;
+		font-family: Bradley Hand;
+		font-style: italic;
+
+        }
+        .yogurt1{
+        position: absolute;
+        width:12%;
+        height:22%;
+		top: 27%;
+		left:86%;
+		transition: all .2s ease-in-out;}
+		.yogurt2{
+        position: absolute;
+        width:12%;
+        height:22%;
+		top: 37%;
+		left:74%;
+		transition: all .2s ease-in-out;}
+		.Yogurt{
+		position: absolute;
+        width:10%;
+        height:22%;
+		top: 50%;
+		left:86%;
+		}
+
+		.pancake-1 :hover{
+		-ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+		}
+		.pancake-2 :hover{
+		-ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+        .matcha-1 :hover{
+        -ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+
+        }
+         .matcha-2 :hover{
+        -ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+         .yogurt-1 :hover{
+        -ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+      .yogurt-2 :hover{
+        -ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+	
+	
+			#mySidenav a {
+  position: absolute;
+  left: -100px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 150px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  border-radius: 0 5px 5px 0;
+  font-family: Bradley Hand;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+#starters {
+  top: 560px;
+
+  background-color:  #b3ff66;
+}
+
+#main {
+  top: 620px;
+  background-color:#ffffb3;
+}
+
+#dessert {
+  top: 680px;
+  background-color: #ffff66;
+
+}
+	@keyframes header{
+		50% {transform: initial;
+		}
+		75%{
+			transform: translate(0, 2vw)
+		}
+		100%{
+			transform: initial;
+		}
+		
 	
 	</style>
 </head>
 <body>
 
-<div class="dessert">Dessert</div>
+<div class="dessert">DESSERT</div>
+<div class="pancake">Gluten Free Pancakes</div>
+<div class = "pancake-1"><img class="pancake1" src="pancake1.jpg"><a href="https://www.thebutchersdaughter.com/"><img class="pancake1" src="pancake1.jpg"></a></div>
+<div class = "pancake-2"><img class="pancake2" src="pancake2.jpg"><a href="https://www.abchome.com/c/dine/abcv/"><img class="pancake2" src="pancake2.jpg"></a></div>
+<img class="Pancake" src="Pancake.jpg">
+<div class="matcha">Pistachio Pudding</div>
+<div class = "matcha-1"><img class="matcha1" src="matcha1.jpg"><a href="https://clementinebakery.com/"><img class="matcha1" src="matcha1.jpg"></a></div>
+<div class = "matcha-2"><img class="matcha2" src="matcha2.jpg"><a href="https://www.spotdessertbar.com/"><img class="matcha2" src="matcha2.jpg"></a></div>
+<img class="Pistachio" src="Pistachio.jpg">
+<div class="yogurt">Vegan Yogurt</div>
+<div class = "yogurt-1"><img class="yogurt1" src="yogurt1.jpg"><a href="https://thechalkboardmag.com/pressed-juicery-freeze"><img class="yogurt1" src="yogurt1.jpg"></a></div>
+<div class = "yogurt-2"><img class="yogurt2" src="yogurt2.jpg"><a href="https://www.chloesfruit.com/"><img class="yogurt2" src="yogurt2.jpg"></a></div>
+<img class="Yogurt" src="Yogurt.jpg">
+
+<div id="mySidenav" class="sidenav">
+  <a href="../Week06-Class02/index2.html" id="starters">Home</a>
+  <a href="../Week06-Class02/starters.html" id="main">Starters</a>
+  <a href="../Week06-Class02/main.html" id="dessert">Main</a>
 
 </body>
 </html>
