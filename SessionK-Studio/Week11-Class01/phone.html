@@ -4,23 +4,41 @@
 	<title>Phone</title>
 </head>
 <style>
-	@media only screen 
-        and (min-device-width):375px;
-        and (max-device-width):812px;
-        and (webkit-min-device-pixel-ratio):2;
-        and (orientation:portrait){
+	 @media (max-width:375px) {
         	h1{
-        		font-family: impact;
-        		font-size: 30px;
         		color: white;
+        		font-family: impact;
+        		text-shadow: 2px 2px red;
+        		text-align: center;
         	}
-        	body{
-        		background-color: black;
-
+           .img1{
+			width: 250px;
+			height: 350px;
+			margin-left: 85px;
+			margin-top: 40px;
+		}
+		.img2{
+			width: 250px;
+			height: 350px;
+			margin-left: 85px;
+			margin-top: 40px;
+		}
+        	}
+        	.img4{
+        		visibility: hidden;
+        	}
+        	.img2{
+        		visibility: hidden;
         	}
         	}
 </style>
 <body>
 <h1>We killed Jenny</h1>
+<img class = "img1" src = "img1.jpg">
+<img class = "img2" src = "img2.jpg">
+<img class = "img3" src = "img3.jpg">
+<img class = "img4" src = "img4.jpg">
+<p class = "suspect1"> suspect 1 </p>
+<p class = "suspect2"> suspect 2 </p>
 </body>
 </html>
