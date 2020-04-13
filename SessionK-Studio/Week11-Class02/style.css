@@ -55,6 +55,9 @@ main {
   display: flex;
   justify-content: space-between;
 }
+p{
+  border: 2px solid #e0b3ff;
+}
 
 @media (max-width: 767px) {
   h1 {
@@ -74,6 +77,10 @@ main {
   main {
     display: block;
   }
+
+  p{
+  border: 2px solid #ffb3e6;
+}
 
   .box {
     margin-left: 0;
@@ -110,6 +117,8 @@ main {
   a{
     color: #b3ecff;
   }
+  p{
+  border: 2px solid #b3ecff;}
   .box{
     margin-left: 0;
     width: 100%;
