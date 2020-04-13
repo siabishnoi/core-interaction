@@ -11,6 +11,7 @@ body,html{
 			font-size: 72px;
 			margin-top: 2px;
 			text-shadow: 2px 2px white;
+		
 	
 			
 		
@@ -137,13 +138,32 @@ body,html{
 			margin-left: 1078px;
             margin-top: 12px;
         }
-        @media (max-width:375px) {
+        h2{
+        	display: none;
+        }
+       @media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) {
         	h1{
-        		color: white;
-        		font-family: impact;
-        		text-shadow: 2px 2px red;
-        		text-align: center;
+        		display: none;
 
+        	}
+        	h2{
+        		color: white;
+        		font-size: 30px;
+        		font-family: Impact;
+        	}
+        	.img1{
+        		width: 450px;
+        		height: 550px;
+        		margin-top: 350px;
+        		margin-left: 10px;
+        	}
+        	.img3{
+        		width: 450px;
+        		height: 550px;
+        		margin-left: 540px;
+        		margin-top: 150px;
         	}
         	.img4{
         		display: none;
@@ -151,4 +171,62 @@ body,html{
         	.img2{
         		display: none;
         	}
+        	.suspect2{
+        		display: none;
+        	}
+        	.suspect4{
+        		display: none;
+        	}
+        	.suspect1{
+        		font-family: Courier;
+			color: black;
+			font-size: 55px;
+			margin-left: 90px;
+			font-style: italic;
+			margin-top: -805px;
+        	}
+        	.suspect3{
+        		font-family: Courier;
+			color: black;
+			font-size: 55px;
+			margin-left: 620px;
+			font-style: italic;
+			margin-top: 635px;
+        	}
+        	.kathy{
+        		display: none;
+        	}
+        	.kathy2{
+        		display: none;
+        	}
+        	.weird{
+        		display: none;
+        	}
+        	.weird2{
+        		display: none;
+        	}
+        	.ray{
+        		font-family: impact;
+			color: red;
+			font-size: 85px;
+			margin-left: 660px;
+			margin-top: -1290px;
+			text-shadow: 2px 2px white;
+
+        	}
+        	.ray2{
+        		display: none;
+        	}
+
+			.francene{
+			font-family: impact;
+			color: red;
+			font-size: 85px;
+			margin-left: 110px;
+			margin-top: 610px;
+			text-shadow: 2px 2px white;
+		}
+		.francene2{
+			display: none;
+		}
         }
