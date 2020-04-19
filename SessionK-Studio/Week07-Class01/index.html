@@ -1,0 +1,111 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>March 6 JS In-Class</title>
+    <style>
+      /* we can write style in anticipation of dynamically generated content with classes and IDs
+      Look at the JavaScript below to find where the class="image" is applied */
+      .image {
+        width: 200px;
+        margin: 20px 20px 0 0;
+      }
+      /* we can style the select element, too. But not the "options" dropdown */
+      select#filter {
+        font-family: monospace;
+        font-size: 16px;
+        text-transform: uppercase;
+      }
+      select#filter:hover {
+        cursor: pointer;
+        color: #fff;
+        background-color: #333;
+        transition: 0.25s all ease-in-out;
+      }
+      /* style below just making it display a little better. not part of our in-class work */
+      #container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>In Class Example Mar 6 - Look at the code while you look at this page!!</h1>
+
+    
+    <p>
+      Now, let's use a filter to generate content based on the filter condition form the Select below
+    </p>
+
+    <select name="filter-images" id="filter" onchange="filteredList()">
+      <option value="2020">I'm hungry!</option>     
+      <option value="2020">Pizza</option>
+      <option value="2000">Fries</option>
+      <option value="1900">Burrito</option>
+      <option value="1800">Pancakes</option>
+    </select>
+
+    <div id="container">
+       <div class="pizza"></div>
+      <div class="Burrito"></div>
+      <div class="pancakes"></div>
+      <div class="fries"></div>
+      
+      <!-- generate content here from JavaScript array -->
+    </div>
+
+    <script>
+      
+      // now we've learned two different events: onclick and onchange.
+      // see this link reviewed in class for a more comprehensive list of events: https://www.w3schools.com/js/js_events.asp
+
+      //
+      //
+      //
+      // NEW EXAMPLE with a new array of archive items and the second select element on the screen.
+      // each index in the array has information organized in an object. Related information is grouped together
+      // var objectExample = {
+      //   customProperty: 'custom value'
+      // };
+      // let's create an array of objects for each item
+      var archiveItems = [
+        { imageURL: 'pizza.jpg' },
+        { imageURL: 'burrito.jpg'},
+        { imageURL: 'fries.jpg'},
+        { imageURL: 'pancakes.jpg' },
+        
+      ];
+
+      // get the single container (notice we don't need querySelectorAll since there's only 1 container element)
+      var container = document.querySelector('#container');
+
+      // using the select element
+      function filteredList() {
+        // 1.
+        var filterValue = +event.target.value; // get filter year from select dropdown on change
+
+        // 2.
+        var updatedItems = archiveItems.filter(item => {
+          // we can test is an item is equal to "===" , less than "<", greater than ">" , etc.
+          return item.year < filterValue; // each item is added (RETURN) to the new array IF it passes the test: is the year less than the dropdown year?
+        });
+
+        // 3.
+        container.innerHTML = ''; // first, delete all the content by setting it equal to nothing
+        // then, take updatedItems filtered list and generate content to put into the container
+        updatedItems.forEach(item => {
+          // since we used object in our archiveItems array, we can access the imageURL, title, and year of each one together by using a .
+          // item.imageURL, item.title, and item.year all come from the same item
+          container.innerHTML += `
+          <div>
+            <img src="images/${item.imageURL}" class="image"/>
+            <h5>${item.title}</h5>
+            <p>${item.year}</p>
+            </div>
+            `;
+          // tip: using "innerHTML += " will keep adding HTML every time it loops through the forEach
+        });
+      }
+    </script>
+  </body>
+</html>

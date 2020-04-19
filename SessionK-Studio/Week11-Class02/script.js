@@ -1,4 +1,4 @@
-var breakPoint = 768;
+var breakPoint = 1024;
 
 var boxes = document.querySelectorAll('.box');
 
@@ -19,7 +19,7 @@ if (window.innerWidth < breakPoint) {
     box.classList.add('fade-in');
   });
 }
-var breakPoint = 550;
+var breakPoint = 375;
 
 var boxes = document.querySelectorAll('.box');
 

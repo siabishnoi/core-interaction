@@ -10,31 +10,27 @@ body,html{
 			margin-left: 465px;
 			font-size: 72px;
 			margin-top: 2px;
-			text-shadow: 2px 2px white;
-		
-	
-			
-		
+			text-shadow: 5px 5px #404040;	
 		}
-		.img1{
+		#img1{
 			width: 250px;
 			height: 350px;
 			margin-left: 85px;
 			margin-top: 40px;
 		}
-		.img2{
+		#img2{
 			width: 250px;
 			height: 350px;
 			margin-left: 85px;
 			margin-top: 40px;
 		}
-		.img3{
+		#img3{
 			width: 250px;
 			height: 350px;
 			margin-left: 85px;
 			margin-top: 40px;
 		}
-		.img4{
+		#img4{
 			width: 250px;
 			height: 350px;
 			margin-left: 85px;
@@ -72,103 +68,84 @@ body,html{
 			font-style: italic;
 			margin-top: -67px;
 		}
-		.ray{
+		#ray{
 			font-family: impact;
-			color: red;
-			font-size: 35px;
-			margin-left: 174px;
-			margin-top: 40px;
-			text-shadow: 1px 1px white;
-
-
+			color: black;
+			font-size: 50px;
+			margin-left: 170px;
+			margin-top: 30px;
 		}
-		.ray2{
+		#kathy{
 			font-family: impact;
-			color: red;
-			font-size: 28px;
-			margin-left: 130px;
-            margin-top: 5px;
-
-
+			color: black;
+			font-size: 50px;
+			margin-left: 390px;
+			margin-top: -110px;
 		}
-		.kathy{
+			#francene{
 			font-family: impact;
-			color: red;
-			font-size: 35px;
-			margin-left: 442px;
-			margin-top: -128px;
-			text-shadow: 1px 1px white;
+			color: black;
+			font-size: 50px;
+			margin-left: 790px;
+			margin-top: -110px;	
 		}
-		.kathy2{
+        	#weird{
 			font-family: impact;
-			color: red;
-			font-size: 28px;
-			margin-left: 430px;
-            margin-top: 12px;
-
-
+			color: black;
+			font-size: 50px;
+			margin-left: 1110px;
+			margin-top: -110px;	
 		}
-			.francene{
-			font-family: impact;
-			color: red;
-			font-size: 35px;
-			margin-left: 817px;
-			margin-top: -128px;
-			text-shadow: 1px 1px white;
-		}
-		.francene2{
-			font-family: impact;
-			color: red;
-			font-size: 28px;
-			margin-left: 818px;
-            margin-top: 12px;
-        }
-        	.weird{
-			font-family: impact;
-			color: red;
-			font-size: 35px;
-			margin-left: 1145px;
-			margin-top: -128px;
-			text-shadow: 1px 1px white;
-		}
-		.weird2{
-			font-family: impact;
-			color: red;
-			font-size: 28px;
-			margin-left: 1078px;
-            margin-top: 12px;
-        }
         h2{
+        	font-family: impact;
+        	font-size: 35px;
+        	color: #bfbfbf;
+        	margin-left: 560px;
+        	margin-top: 10px;
+        	text-shadow: 3px 3px #404040;
+        }
+        h3{
         	display: none;
         }
+        .text1{
+        	display: none;
+        }
+         .text2{
+        	display: none;
+        }
+
        @media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) {
+    and (min-device-width: 375px) 
+    and (max-device-height: 812px) {
         	h1{
         		display: none;
 
         	}
         	h2{
+        		display: none;
+        	}
+        	h3{
         		color: white;
         		font-size: 30px;
         		font-family: Impact;
+        		display: block;
         	}
-        	.img1{
+        #img1{
         		width: 450px;
         		height: 550px;
         		margin-top: 350px;
         		margin-left: 10px;
         	}
-        	.img3{
+        	#img3{
         		width: 450px;
         		height: 550px;
         		margin-left: 540px;
         		margin-top: 150px;
         	}
-        	.img4{
+        	#img4{
         		display: none;
         	}
-        	.img2{
+        	#img2{
         		display: none;
         	}
         	.suspect2{
@@ -228,5 +205,12 @@ body,html{
 		}
 		.francene2{
 			display: none;
+		}
+		.text1{
+			
+			color: white;
+			font-family: courier;
+			font-size: 20px;
+			display: block;
 		}
         }
