@@ -1,22 +1,33 @@
-body,html{
+
+html{
 			margin:0;
+			scroll-behavior: smooth;
+			
 		}
 		body{
 			background-color: black;
+			margin: 0;
 		}
-		h1{
+
+
+		
+		.laptop{
 			color: red;
 			font-family: Impact;
-			margin-left: 465px;
-			font-size: 72px;
-			margin-top: 2px;
+			margin-left: 430px;
+			font-size: 40px;
+			margin-top: -50px;
 			text-shadow: 5px 5px #404040;	
+		}
+		.phone{
+			display: none;
+        		
 		}
 		#img1{
 			width: 250px;
 			height: 350px;
 			margin-left: 85px;
-			margin-top: 40px;
+			margin-top: -20px;
 		}
 		#img2{
 			width: 250px;
@@ -36,38 +47,7 @@ body,html{
 			margin-left: 85px;
 			margin-top: 40px;
 		}
-		.suspect1{
-			font-family: Courier;
-			color: black;
-			font-size: 30px;
-			margin-left: 126px;
-			font-style: italic;
-			margin-top: -62px;
-		}
-		.suspect2{
-			font-family: Courier;
-			color: black;
-			font-size: 30px;
-			margin-left: 468px;
-			font-style: italic;
-			margin-top: -65px;
-		}
-		.suspect3{
-			font-family: Courier;
-			color: black;
-			font-size: 30px;
-			margin-left: 805px;
-			font-style: italic;
-			margin-top: -66px;
-		}
-			.suspect4{
-			font-family: Courier;
-			color: black;
-			font-size: 30px;
-			margin-left: 1145px;
-			font-style: italic;
-			margin-top: -67px;
-		}
+		
 		#ray{
 			font-family: impact;
 			color: black;
@@ -96,16 +76,8 @@ body,html{
 			margin-left: 1110px;
 			margin-top: -110px;	
 		}
-        h2{
-        	font-family: impact;
-        	font-size: 35px;
-        	color: #bfbfbf;
-        	margin-left: 560px;
-        	margin-top: 10px;
-        	text-shadow: 3px 3px #404040;
-        }
-        h3{
-        	display: none;
+        
+        
         }
         .text1{
         	display: none;
@@ -114,21 +86,201 @@ body,html{
         	display: none;
         }
 
+        
+        
+        a{
+        	font-size: 25px;
+        	color: red;
+            text-shadow: 2px 2px #404040;
+        	font-family: impact;
+        	margin-left: 1320px;
+        	margin-bottom: 25px;
+        }
+        #section2{
+        	background-color: black;
+        	height: 210px;
+        }
+        h2{
+        	color: red;
+			font-family: Impact;
+			margin-left: 405px;
+			font-size: 72px;
+			margin-top: 4px;
+			text-shadow: 5px 5px #404040;
+        }
+        #img5{
+			width: 250px;
+			height: 350px;
+			margin-left: 85px;
+			margin-top: -20px;
+		}
+		#img6{
+			width: 250px;
+			height: 350px;
+			margin-left: 85px;
+			margin-top: 40px;
+		}
+		#img7{
+			width: 250px;
+			height: 350px;
+			margin-left: 85px;
+			margin-top: 40px;
+		}
+		#img8{
+			width: 250px;
+			height: 350px;
+			margin-left: 85px;
+			margin-top: 40px;
+		}
+		.click2{font-size: 30px;
+        	color: white;
+        	font-family: impact;
+        	text-shadow: 4px 4px #404040;
+        	margin-left: 570px;
+        	margin-top: 60px;
+        	transform: scale(1);
+	        animation: pulse 2s infinite;
+
+		}
+		#gun{
+			font-family: impact;
+			color: black;
+			font-size: 40px;
+			margin-left: 100px;
+			margin-top: 10px;
+		}
+		#knife{
+			font-family: impact;
+			color: black;
+			font-size: 40px;
+			margin-left: 410px;
+			margin-top: -90px;
+		}
+			#choke{
+			font-family: impact;
+			color: black;
+			font-size: 40px;
+			margin-left: 755px;
+			margin-top: -90px;	
+		}
+        	#rope{
+			font-family: impact;
+			color: black;
+			font-size: 40px;
+			margin-left: 1080px;
+			margin-top: -90px;	
+		}
+		a{
+        	font-size: 25px;
+        	color: red;
+            text-shadow: 2px 2px #404040;
+        	font-family: impact;
+        	margin-left: 1320px;
+        	margin-top: -50px;
+        }
+        .click{
+        	font-size: 30px;
+        	color: white;
+        	font-family: impact;
+        	text-shadow: 4px 4px #404040;
+        	margin-left: 570px;
+        	margin-top: -70px;
+        	transform: scale(1);
+	        animation: pulse 2s infinite;
+        }
+        #section3{
+        	background-color: black;
+        	height: 760px;
+        }
+       h3{
+        	color: red;
+			font-family: Impact;
+			margin-left: 570px;
+			font-size: 72px;
+			margin-top: 600px;
+			text-shadow: 5px 5px #404040;
+        }
+        .click3{
+        	font-size: 30px;
+        	color: white;
+        	font-family: impact;
+        	text-shadow: 4px 4px #404040;
+        	margin-left: 400px;
+        	margin-top: 260px;
+        	transform: scale(1);
+	        animation: pulse 2s infinite;
+	    }
+	
+
+        @keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	50% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+	@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	50% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+	@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	50% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+
+}
+
        @media only screen 
     and (min-device-width: 375px) 
     and (max-device-height: 812px) {
-        	h1{
+        		.laptop{
         		display: none;
 
+        	}
+        	.phone{
+        		display: block;
+        		color: red;
+			font-family: Impact;
+			margin-left: 460px;
+			font-size: 46px;
+			margin-top: -34px;
+			text-shadow: 5px 5px #404040;	
         	}
         	h2{
         		display: none;
         	}
         	h3{
-        		color: white;
-        		font-size: 30px;
-        		font-family: Impact;
-        		display: block;
+        		display: none;
         	}
         #img1{
         		width: 450px;
@@ -148,40 +300,15 @@ body,html{
         	#img2{
         		display: none;
         	}
-        	.suspect2{
-        		display: none;
-        	}
-        	.suspect4{
-        		display: none;
-        	}
-        	.suspect1{
-        		font-family: Courier;
-			color: black;
-			font-size: 55px;
-			margin-left: 90px;
-			font-style: italic;
-			margin-top: -805px;
-        	}
-        	.suspect3{
-        		font-family: Courier;
-			color: black;
-			font-size: 55px;
-			margin-left: 620px;
-			font-style: italic;
-			margin-top: 635px;
-        	}
+        	
         	.kathy{
         		display: none;
         	}
-        	.kathy2{
-        		display: none;
-        	}
+        	
         	.weird{
         		display: none;
         	}
-        	.weird2{
-        		display: none;
-        	}
+        	
         	.ray{
         		font-family: impact;
 			color: red;
@@ -191,9 +318,7 @@ body,html{
 			text-shadow: 2px 2px white;
 
         	}
-        	.ray2{
-        		display: none;
-        	}
+        	
 
 			.francene{
 			font-family: impact;
@@ -203,9 +328,7 @@ body,html{
 			margin-top: 610px;
 			text-shadow: 2px 2px white;
 		}
-		.francene2{
-			display: none;
-		}
+		
 		.text1{
 			
 			color: white;
@@ -213,4 +336,16 @@ body,html{
 			font-size: 20px;
 			display: block;
 		}
+		#section3{
+			display: none;
+		}
+			#section2{
+			display: none;
         }
+        .click{
+        	display: none;
+        }
+        .click2{
+        	display: none;
+        }
+    }
