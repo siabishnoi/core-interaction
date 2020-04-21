@@ -17,7 +17,7 @@ html{
 			margin-left: 430px;
 			font-size: 40px;
 			margin-top: -50px;
-			text-shadow: 5px 5px #404040;	
+			text-shadow: 3px 3px white;	
 		}
 		.phone{
 			display: none;
@@ -53,7 +53,7 @@ html{
 			color: black;
 			font-size: 50px;
 			margin-left: 170px;
-			margin-top: 30px;
+			margin-top: 10px;
 		}
 		#kathy{
 			font-family: impact;
@@ -77,14 +77,11 @@ html{
 			margin-top: -110px;	
 		}
         
-        
-        }
+       
         .text1{
         	display: none;
         }
-         .text2{
-        	display: none;
-        }
+         
 
         
         
@@ -103,10 +100,10 @@ html{
         h2{
         	color: red;
 			font-family: Impact;
-			margin-left: 405px;
-			font-size: 72px;
-			margin-top: 4px;
-			text-shadow: 5px 5px #404040;
+			margin-left: 370px;
+			font-size: 80px;
+			margin-top: 10px;
+			text-shadow: 3px 3px white;
         }
         #img5{
 			width: 250px;
@@ -136,8 +133,8 @@ html{
         	color: white;
         	font-family: impact;
         	text-shadow: 4px 4px #404040;
-        	margin-left: 570px;
-        	margin-top: 60px;
+        	margin-left: 580px;
+        	margin-top: 40px;
         	transform: scale(1);
 	        animation: pulse 2s infinite;
 
@@ -173,7 +170,7 @@ html{
 		a{
         	font-size: 25px;
         	color: red;
-            text-shadow: 2px 2px #404040;
+            text-shadow: 1px 1px white;
         	font-family: impact;
         	margin-left: 1320px;
         	margin-top: -50px;
@@ -182,12 +179,15 @@ html{
         	font-size: 30px;
         	color: white;
         	font-family: impact;
-        	text-shadow: 4px 4px #404040;
+        	text-shadow: 3px 3px #404040;
         	margin-left: 570px;
-        	margin-top: -70px;
+        	margin-top: -20px;
         	transform: scale(1);
 	        animation: pulse 2s infinite;
         }
+       .arrow{
+       	display: none;
+       }
         #section3{
         	background-color: black;
         	height: 760px;
@@ -195,10 +195,10 @@ html{
        h3{
         	color: red;
 			font-family: Impact;
-			margin-left: 570px;
-			font-size: 72px;
+			margin-left: 560px;
+			font-size: 80px;
 			margin-top: 600px;
-			text-shadow: 5px 5px #404040;
+			text-shadow: 3px 3px white;
         }
         .click3{
         	font-size: 30px;
@@ -210,6 +210,7 @@ html{
         	transform: scale(1);
 	        animation: pulse 2s infinite;
 	    }
+	    
 	
 
         @keyframes pulse {
@@ -242,6 +243,7 @@ html{
 		transform: scale(0.95);
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 	}
+}
 	@keyframes pulse {
 	0% {
 		transform: scale(0.95);
@@ -257,12 +259,15 @@ html{
 		transform: scale(0.95);
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 	}
+}
 
 }
 
        @media only screen 
     and (min-device-width: 375px) 
     and (max-device-height: 812px) {
+
+    	
         		.laptop{
         		display: none;
 
@@ -271,10 +276,11 @@ html{
         		display: block;
         		color: red;
 			font-family: Impact;
-			margin-left: 460px;
-			font-size: 46px;
-			margin-top: -34px;
-			text-shadow: 5px 5px #404040;	
+			margin-left: 70px;
+			font-size: 280px;
+			margin-top: 60px;
+			text-shadow: 9px 9px white;	
+			justify-content: center;
         	}
         	h2{
         		display: none;
@@ -283,15 +289,15 @@ html{
         		display: none;
         	}
         #img1{
-        		width: 450px;
-        		height: 550px;
+        		width: 1050px;
+        		height: 1150px;
         		margin-top: 350px;
-        		margin-left: 10px;
+        		margin-left: 2px;
         	}
         	#img3{
-        		width: 450px;
-        		height: 550px;
-        		margin-left: 540px;
+        		width: 1050px;
+        		height: 1150px;
+        		margin-left: 400px;
         		margin-top: 150px;
         	}
         	#img4{
@@ -310,33 +316,42 @@ html{
         	}
         	
         	.ray{
-        		font-family: impact;
-			color: red;
-			font-size: 85px;
-			margin-left: 660px;
-			margin-top: -1290px;
-			text-shadow: 2px 2px white;
+        		display: none;
 
         	}
         	
 
 			.francene{
-			font-family: impact;
-			color: red;
-			font-size: 85px;
-			margin-left: 110px;
-			margin-top: 610px;
-			text-shadow: 2px 2px white;
+			display: none;
 		}
 		
 		.text1{
 			
 			color: white;
 			font-family: courier;
-			font-size: 20px;
+			font-size: 32px;
 			display: block;
+			text-shadow: 1px 1px red;
+			margin-left: 20px;
+			margin-top: 2600px;
+
+
 		}
+		.arrow{
+			display: block;
+			width: 400px;
+			height: 500px;
+			margin-top: -3100px;
+			margin-left: 500px;
+		}
+		
 		#section3{
+			display: none;
+		}
+		#section2{
+			display: none;
+		}
+		a{
 			display: none;
 		}
 			#section2{
@@ -346,6 +361,9 @@ html{
         	display: none;
         }
         .click2{
+        	display: none;
+        }
+        .click3{
         	display: none;
         }
     }

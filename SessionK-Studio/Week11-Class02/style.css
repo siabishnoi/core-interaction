@@ -7,6 +7,7 @@ body {
 
 body {
   font-family: Palatino;
+  background-color: #f2e6ff;
 }
 
 h1 {
@@ -15,7 +16,7 @@ h1 {
   text-transform: capitalize;
   text-decoration: underline;
   text-decoration-color: #e0b3ff;
-  color: #e0b3ff;
+  color: black;
 }
 
 .container {
@@ -31,7 +32,7 @@ nav {
 
 a {
   padding: 10px;
-  color: #e0b3ff;
+  color: black;
 }
 
 .box {
@@ -57,13 +58,18 @@ main {
 }
 p{
   border: 2px solid #e0b3ff;
+
 }
 
 @media (max-width: 1024px) {
-  h1 {
+  
+  body{
+background-color: #ffe6ff;
+}
+    h1 {
     text-align: left;
     text-decoration-color: #ffb3e6;
-    color: #ffb3e6;
+    color: black;
   }
 
   nav {
@@ -72,7 +78,7 @@ p{
   }
   a {
     padding-left: 0;
-    color: #ffb3e6;
+    color: black;
   }
   main {
     display: block;
@@ -106,16 +112,20 @@ p{
 }
 
 @media (max-width: 375px) {
-  h1{
+  
+  body{
+background-color: #e6f9ff;
+}
+    h1{
     text-align: center;
-    color: #b3ecff;
+    color: black;
     text-decoration-color: #b3ecff;
   }
   nav{
     justify-content: center;
   }
   a{
-    color: #b3ecff;
+    color: black;
   }
   p{
   border: 2px solid #b3ecff;}

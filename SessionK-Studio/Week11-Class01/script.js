@@ -24,3 +24,24 @@ document.getElementById("img7").onclick=function(){
 document.getElementById("img8").onclick=function(){
 	document.getElementById("rope").style.color='red';
 }
+var breakPoint = 375;
+
+var boxes = document.querySelectorAll('.images');
+
+if (window.innerWidth < breakPoint) {
+  window.addEventListener('scroll', () => {
+    boxes.forEach(images => {
+      var showItemAt = window.innerHeight + window.scrollY - images.offsetHeight;
+      if (showItemAt > images.offsetTop) {
+        images.classList.add('appear');
+      } else {
+        images.classList.remove('appear');
+      }
+    });
+  });
+} else {
+  console.log('big screen');
+  boxes.forEach(images => {
+    images.classList.add('fade-in');
+  });
+}
