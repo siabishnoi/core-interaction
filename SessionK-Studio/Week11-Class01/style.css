@@ -348,8 +348,20 @@ html{
 			text-shadow: 1px 1px red;
 			margin-left: 20px;
 			margin-top: 2700px;
+			margin-right: -180px;
 
 
+		}
+		.p2{
+			text-align: right;
+			margin-right: -440px;
+			margin-left: 200px;
+			color: white;
+			font-family: courier;
+			font-size: 60px;
+			display: block;
+			text-shadow: 1px 1px red;
+			margin-top: 100px;
 		}
 		.arrow{
 			display: block;
