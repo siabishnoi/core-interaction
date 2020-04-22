@@ -184,7 +184,7 @@ html{
         	font-family: impact;
         	text-shadow: 3px 3px #404040;
         	margin-left: 570px;
-        	margin-top: -20px;
+        	margin-top: -70px;
         	transform: scale(1);
 	        animation: pulse 2s infinite;
         }
@@ -300,7 +300,7 @@ html{
         		display: none;
         	}
         	.they{
-        		margin-left: 150px;
+        		text-align: center;
         	}
         #img1{
         		width: 1050px;
