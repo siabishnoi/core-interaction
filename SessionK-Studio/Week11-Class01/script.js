@@ -24,3 +24,10 @@ document.getElementById("img7").onclick=function(){
 document.getElementById("img8").onclick=function(){
 	document.getElementById("rope").style.color='red';
 }
+var breakpoint = 375;
+document.getElementById("img1").onclick=function(){
+	document.getElementById("ray").style.color='transparent';
+	}
+	document.getElementById("img3").onclick=function(){
+	document.getElementById("francene").style.color='transparent';
+}
