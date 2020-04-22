@@ -289,7 +289,7 @@ html{
 			font-family: Impact;
 			margin-left: 70px;
 			font-size: 280px;
-			margin-top: 60px;
+			margin-top: -60px;
 			text-shadow: 9px 9px white;	
 			justify-content: center;
         	}
@@ -298,6 +298,9 @@ html{
         	}
         	h3{
         		display: none;
+        	}
+        	.they{
+        		margin-left: 120px;
         	}
         #img1{
         		width: 1050px;
@@ -340,11 +343,11 @@ html{
 			
 			color: white;
 			font-family: courier;
-			font-size: 32px;
+			font-size: 60px;
 			display: block;
 			text-shadow: 1px 1px red;
 			margin-left: 20px;
-			margin-top: 2600px;
+			margin-top: 2700px;
 
 
 		}
@@ -352,7 +355,7 @@ html{
 			display: block;
 			width: 400px;
 			height: 500px;
-			margin-top: -3100px;
+			margin-top: -3200px;
 			margin-left: 500px;
 		}
 		
@@ -377,4 +380,5 @@ html{
         .click3{
         	display: none;
         }
+
     }
