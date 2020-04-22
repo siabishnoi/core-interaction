@@ -300,8 +300,7 @@ html{
         		display: none;
         	}
         	.they{
-        		text-align: center;
-        	}
+        		margin-left: 140px;        	}
         #img1{
         		width: 1050px;
         		height: 1150px;
@@ -347,7 +346,7 @@ html{
 			display: block;
 			text-shadow: 1px 1px red;
 			margin-left: 20px;
-			margin-top: 2700px;
+			margin-top: 2730px;
 			margin-right: -180px;
 
 
