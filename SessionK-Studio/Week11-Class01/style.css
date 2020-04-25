@@ -7,6 +7,7 @@ html{
 		body{
 			background-color: black;
 			margin: 0;
+
 		}
 
 
@@ -14,10 +15,22 @@ html{
 		.laptop{
 			color: red;
 			font-family: Impact;
-			margin-left: 430px;
-			font-size: 40px;
-			margin-top: -50px;
+			margin-left: 380px;
+			font-size: 120px;
+			margin-top: -170px;
 			text-shadow: 3px 3px white;	
+			line-height: 1;
+			
+  animation: .9s shake infinite alternate;
+}
+
+		
+		.who{
+			margin-left: 86px;
+
+		}
+		.killed{
+			margin-left: 38px;
 		}
 		.phone{
 			display: none;
@@ -27,7 +40,7 @@ html{
 			width: 250px;
 			height: 350px;
 			margin-left: 85px;
-			margin-top: -20px;
+			margin-top: -80px;
 			transition: all .2s ease-in-out; 
 		}
 
@@ -43,12 +56,17 @@ html{
 			height: 350px;
 			margin-left: 85px;
 			margin-top: 40px;
+			transition: all .2s ease-in-out; 
 		}
 		#img4{
 			width: 250px;
 			height: 350px;
 			margin-left: 85px;
 			margin-top: 40px;
+			transition: all .2s ease-in-out; 
+		}
+		.images{
+			margin-top: 200px;
 		}
 		
 		#ray{
@@ -95,6 +113,7 @@ html{
         	font-family: impact;
         	margin-left: 1320px;
         	margin-bottom: 25px;
+        	
         }
         #section2{
         	background-color: black;
@@ -103,41 +122,53 @@ html{
         h2{
         	color: red;
 			font-family: Impact;
-			margin-left: 370px;
-			font-size: 80px;
-			margin-top: 10px;
+			margin-left: 270px;
+			font-size: 250px;
+			line-height: 240px;
+			margin-top: 150px;
 			text-shadow: 3px 3px white;
+			animation: .9s shake infinite alternate;
+        }
+        .Jenny{
+        	margin-left: 120px;
+        }
+        .killed{
+        	margin-left: 80px;
         }
         #img5{
 			width: 250px;
 			height: 350px;
 			margin-left: 85px;
 			margin-top: -20px;
+			transition: all .2s ease-in-out; 
 		}
 		#img6{
 			width: 250px;
 			height: 350px;
 			margin-left: 85px;
 			margin-top: 40px;
+			transition: all .2s ease-in-out; 
 		}
 		#img7{
 			width: 250px;
 			height: 350px;
 			margin-left: 85px;
 			margin-top: 40px;
+			transition: all .2s ease-in-out; 
 		}
 		#img8{
 			width: 250px;
 			height: 350px;
 			margin-left: 85px;
 			margin-top: 40px;
+			transition: all .2s ease-in-out; 
 		}
-		.click2{font-size: 30px;
+		.click2{font-size: 32px;
         	color: white;
         	font-family: impact;
         	text-shadow: 4px 4px #404040;
-        	margin-left: 580px;
-        	margin-top: 40px;
+        	margin-left: 570px;
+        	margin-top: 70px;
         	transform: scale(1);
 	        animation: pulse 2s infinite;
 
@@ -177,20 +208,25 @@ html{
         	font-family: impact;
         	margin-left: 1320px;
         	margin-top: -50px;
+        	
         }
         .click{
-        	font-size: 30px;
+        	font-size: 32px;
         	color: white;
         	font-family: impact;
         	text-shadow: 3px 3px #404040;
         	margin-left: 570px;
-        	margin-top: -70px;
+        	margin-top: -30px;
         	transform: scale(1);
 	        animation: pulse 2s infinite;
         }
        .arrow{
        	display: none;
        }
+       .phone2{
+       	display: none;
+       }
+       
         #section3{
         	background-color: black;
         	height: 760px;
@@ -198,20 +234,25 @@ html{
        h3{
         	color: red;
 			font-family: Impact;
-			margin-left: 560px;
-			font-size: 80px;
-			margin-top: 600px;
+			margin-left: 350px;
+			font-size: 320px;
+			margin-top: 1500px;
+			line-height: 330px;
 			text-shadow: 3px 3px white;
+			animation: .9s shake infinite alternate;
         }
         .click3{
-        	font-size: 30px;
+        	font-size: 32px;
         	color: white;
         	font-family: impact;
         	text-shadow: 4px 4px #404040;
-        	margin-left: 400px;
-        	margin-top: 260px;
+        	margin-left: 330px;
+        	margin-top: -150px;
         	transform: scale(1);
 	        animation: pulse 2s infinite;
+	    }
+	    .text2{
+	    	display: none;
 	    }
 	    
 	
@@ -264,15 +305,54 @@ html{
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 	}
 }
-#img1 :hover { 
-	  -ms-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+	@keyframes shake {
+  0% { transform: skewX(-1deg); }
+  5% { transform: skewX(10deg); }
+  10% { transform: skewX(-10deg); }
+  15% { transform: skewX(0deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
 }
-#img2 :hover { 
-	  -ms-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+
+#img1:hover { 
+	  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+#img2:hover { 
+	  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+#img3:hover { 
+	  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+#img4:hover { 
+	  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+#img5:hover { 
+	  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+#img6:hover { 
+	  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+#img7:hover { 
+	  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+#img8:hover { 
+	  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
        @media only screen 
     and (min-device-width: 375px) 
@@ -287,9 +367,10 @@ html{
         		display: block;
         		color: red;
 			font-family: Impact;
-			margin-left: 70px;
-			font-size: 280px;
-			margin-top: -110px;
+			margin-left: 50px;
+			font-size: 290px;
+			line-height: 600px;
+			margin-top: 100px;
 			text-shadow: 9px 9px white;	
 			justify-content: center;
         	}
@@ -299,17 +380,18 @@ html{
         	h3{
         		display: none;
         	}
-        	
+
         #img1{
         		width: 1050px;
         		height: 1150px;
-        		margin-top: 350px;
-        		margin-left: 2px;
+        		margin-top: 450px;
+        		margin-left: 200px;
+
         	}
         	#img3{
         		width: 1050px;
         		height: 1150px;
-        		margin-left: 400px;
+        		margin-left: 200px;
         		margin-top: 150px;
         	}
         	#img4{
@@ -345,15 +427,28 @@ html{
 			display: block;
 			text-shadow: 1px 1px red;
 			margin-left: 20px;
-			margin-top: 2730px;
-			margin-right: -180px;
+			margin-top: 2750px;
+			margin-right: -400px;
+			text-align: center;
 
+
+		}
+		.text2{
+			color: white;
+			font-family: courier;
+			font-size: 60px;
+			display: block;
+			text-shadow: 1px 1px red;
+			margin-left: 20px;
+			margin-top: 1110px;
+			margin-right: -400px;
+			text-align: center;
 
 		}
 		.p2{
 			text-align: right;
 			margin-right: -440px;
-			margin-left: 200px;
+			margin-left: 150px;
 			color: white;
 			font-family: courier;
 			font-size: 60px;
@@ -368,19 +463,35 @@ html{
 			margin-top: -3200px;
 			margin-left: 500px;
 		}
+		.arrow2{
+			display: block;
+			width: 400px;
+			height: 500px;
+			margin-top: -500px;
+			margin-left: 500px;
+		}
+		.phone2{
+			display: block;
+        		color: red;
+			font-family: Impact;
+			margin-left: 50px;
+			font-size: 570px;
+			line-height: 550px;
+			margin-top: -200px;
+			text-shadow: 9px 9px white;	
+			justify-content: center;
+		}
+		.this{
+			margin-left: 205px;
+			margin-top: -500px;
+		}
 		
-		#section3{
-			display: none;
-		}
-		#section2{
-			display: none;
-		}
+		
+		
 		a{
 			display: none;
 		}
-			#section2{
-			display: none;
-        }
+		
         .click{
         	display: none;
         }
@@ -390,5 +501,23 @@ html{
         .click3{
         	display: none;
         }
+        #img6{
+        	display: block;
+        	width: 1055px;
+        		height: 1155px;
+        		margin-top: 250px;
+        		margin-left: 200px;
+        }
+         #img5{
+         	display: none;
+         }
+         	#img7{
+         		display: none;
+         	}
+         		#img8{
+         			display: none;
+         		}
+         		
+         	
 
     }

@@ -1,6 +1,6 @@
+
 document.getElementById("img1").onclick=function(){
-	document.getElementById("ray").style.color='#33cc33';
-	
+	document.getElementById("ray").style.color='#33cc33';	
 }
 document.getElementById("img3").onclick=function(){
 	document.getElementById("francene").style.color='#33cc33';
@@ -12,22 +12,15 @@ document.getElementById("img4").onclick=function(){
 	document.getElementById("weird").style.color='red';
 }
 document.getElementById("img5").onclick=function(){
-	document.getElementById("gun").style.color='red';
-	
+	document.getElementById("gun").style.color='red';	
 }
 document.getElementById("img6").onclick=function(){
 	document.getElementById("knife").style.color='#33cc33';
 }
 document.getElementById("img7").onclick=function(){
-	document.getElementById("choke").style.color='#33cc33';
+	document.getElementById("choke").style.color='red';
 }
 document.getElementById("img8").onclick=function(){
 	document.getElementById("rope").style.color='red';
 }
-var breakpoint = 375;
-document.getElementById("img1").onclick=function(){
-	document.getElementById("ray").style.color='transparent';
-	}
-	document.getElementById("img3").onclick=function(){
-	document.getElementById("francene").style.color='transparent';
-}
+
